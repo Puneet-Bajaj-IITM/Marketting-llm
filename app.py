@@ -57,4 +57,4 @@ def search_and_process(file_path, input_terms_str):
     return aggregated_results
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
