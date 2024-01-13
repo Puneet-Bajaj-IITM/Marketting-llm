@@ -19,9 +19,9 @@ from io import StringIO
 # Create output folder if it doesn't exist
 os.makedirs("output", exist_ok=True)
 
-# Load spaCy model
-spacy_model_path = 'model\en_core_web_sm-3.7.1\en_core_web_sm\en_core_web_sm-3.7.1'
-nlp = spacy.load(spacy_model_path)
+# # Load spaCy model
+# spacy_model_path = 'model\en_core_web_sm-3.7.1\en_core_web_sm\en_core_web_sm-3.7.1'
+# nlp = spacy.load(spacy_model_path)
 
 import spacy
 import inflect
@@ -39,7 +39,6 @@ import re
 import spacy
 import inflect
 
-nlp = spacy.load("en_core_web_sm")
 
 def preprocess_search_term(search_term):
     # Remove symbols, convert to lowercase, and strip leading/trailing spaces
